@@ -157,14 +157,14 @@ export default class RideHistoryScreen extends Component {
         </View>
         <View style={styles.lowerContainer}>
 
-         {/* <FlatList
+         { <FlatList
             data={allTransactions}
             renderItem={this.renderItem}
             keyExtractor={(item, index) => index.toString()}
             onEndReached={() => 
               this.fetchMoreTransactions(searchText)}
             onEndReachedThreshold={0.7}
-          /> */}
+          /> }
 
            {/* <FlatList
             data=allTransactions
